@@ -6,8 +6,6 @@ test: npm test
 cache:
  directories:
  - node_modules
-script: "sbt clean coverage test"
-after_sucess: "sbt coveralls"
 notifications:
   slack: wizeline:VToZwehgNG6qZJCkdaw9DYex
 env:
