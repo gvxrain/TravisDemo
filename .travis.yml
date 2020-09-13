@@ -6,5 +6,3 @@ test: npm test
 cache:
  directories:
  - node_modules
-notifications:
-  slack: wizeline:VToZwehgNG6qZJCkdaw9DYex
